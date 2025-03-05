@@ -25,12 +25,12 @@ public class ContaBancaria {
 			return false;
 			
 		}
-	}
-	
+	}	
 	
 	public ContaBancaria() {
 		
 	}
+	
    public ContaBancaria(double saldo) {
 		this.saldo=saldo;
 	}
