@@ -5,15 +5,40 @@ public class Retangulo extends Forma{
 	private double largura;
 	private double altura;
 
-	public Retangulo(double d, double e) {
-		// TODO Auto-generated constructor stub
+	public Retangulo(double largura, double altura) {
+		this.largura=largura;
+		this.largura=altura;
+	}
+	
+	@Override
+	public double calcularArea() {
+		// TODO Auto-generated method stub
+		return largura*altura;
+	}
+	
+
+	public double getLargura() {
+		return largura;
 	}
 
-	@Override
-	public void calcularArea() {
-		// TODO Auto-generated method stub
-		
+	public void setLargura(double largura) {
+		this.largura = largura;
 	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+
+
+	
+	
+	
+	
 	
 		
 }

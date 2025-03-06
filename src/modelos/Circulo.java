@@ -1,17 +1,28 @@
 package modelos;
 
 public class Circulo extends Forma {
-
-	public Circulo(double d) {
-		// TODO Auto-generated constructor stub
-	}
-
+	
+	private double raio;
+	
 	@Override
-	public void calcularArea() {
+	public double calcularArea() {
 		// TODO Auto-generated method stub
+		return Math.PI*raio*raio;
+
+	}	
 		
+	public Circulo(double raio) {
+		super();
+		this.raio = raio;
 	}
-	
-	
+
+	public double getRaio() {
+		return raio;
+	}
+
+	public void setRaio(double raio) {
+		this.raio = raio;
+	}
+
 
 }
