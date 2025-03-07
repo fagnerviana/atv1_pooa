@@ -7,12 +7,11 @@ public class Retangulo extends Forma{
 
 	public Retangulo(double largura, double altura) {
 		this.largura=largura;
-		this.largura=altura;
+		this.altura=altura;
 	}
 	
 	@Override
 	public double calcularArea() {
-		// TODO Auto-generated method stub
 		return largura*altura;
 	}
 	
