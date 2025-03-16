@@ -18,13 +18,15 @@ public class Palavra {
 		
 		for (String palavra : separarPalavras) {
 			
+			//contador.put(palavra,contador.getOrDefault(palavra, 0)+1);
 			contador.put(palavra,contador.getOrDefault(palavra, 0)+1);
 		}
 		
 		  // Exibir a contagem de palavras
         System.out.println("Frequência das palavras:");
         for (Map.Entry<String, Integer> entry : contador.entrySet()) {
-            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        	
+            System.out.println(entry.getKey() + ": " + entry.getValue());
         }
         
         sc.close();
