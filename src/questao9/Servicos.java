@@ -1,6 +1,6 @@
 package questao9;
 
-public class Contador {
+public class Servicos {
 
 	public static void main(String[] args) {
 		
